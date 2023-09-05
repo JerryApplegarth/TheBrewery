@@ -1,0 +1,50 @@
+@use '../abstracts/' as *;
+
+a {
+    color: $a-text-color;
+}
+p {
+    color: $color-black;
+    line-height: 1.5;
+    font-size: 1.125rem;
+}
+
+// bottom section
+
+.section__home {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+
+.section__img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: $size-200;
+
+}
+.main__nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+hr {
+    width: 80%;
+    margin: 0 auto;
+    margin: 10px 0;
+    box-shadow: $color-box-shadow;
+}
+.container__p {
+    margin-bottom: 10px;
+}
+
+.container__input {
+    font-size: inherit;
+    width: 30%;
+    padding: $size-50;
+    margin-inline: $size-300;
+}
+.search_btn {
+    margin-inline: $size-200;
+}

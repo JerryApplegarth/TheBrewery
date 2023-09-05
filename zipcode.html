@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Jerry Applegarth" />
+		<meta name="description" content="Learning Web Design" />
+		<!-- Favicon -->
+		<link
+			rel="shortcut icon"
+			href="/src/img/favicon.ico"
+			type="image/x-icon" />
+		<!-- Google Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet" />
+
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+
+		<title>Search by Zip</title>
+		<!-- Main CSS and Reset -->
+
+		<link rel="stylesheet" href="/sass/style.scss" />
+		<script type="module" src="/zipcode.html" defer></script>
+	</head>
+
+	<body>
+		<main id="main" class="main">
+			<h1 class="main__h1">The Brewery Finder</h1>
+			<nav class="nav main__nav">
+				<ul class="ul main__ul">
+					<li class="li main__li main__nav-item">
+						<a href="/index.html">Home</a>
+					</li>
+				</ul>
+			</nav>
+			<p class="main__p">
+				This app made possible by
+				<a
+					href="https://www.openbrewerydb.org/"
+					target="_blank"
+					class="main__a"
+					>Open Brewery</a
+				>
+			</p>
+
+			<hr />
+			<section class="container">
+				<div class="container__div">
+					<p class="container__p">
+						We help you find the brewery you want to visit
+					</p>
+					<form action="" class="container__form">
+						<label for="search" class="container__label"
+							>Zip Code</label
+						>
+						<input
+							type="text"
+							name="search"
+							id="zip-input"
+							placeholder="zip"
+							class="container__input" />
+						<input
+							type="button"
+							class="search_btn btn"
+							id="btn"
+							title="submit"
+							value="submit" />
+						<input
+							type="button"
+							class="search_btn btn"
+							id="clear"
+							title="submit"
+							value="clear" />
+					</form>
+					<p id="p_class"></p>
+				</div>
+			</section>
+			<footer>app created by <a href="#">applej1.com</a></footer>
+		</main>
+		<footer></footer>
+	</body>
+</html>
