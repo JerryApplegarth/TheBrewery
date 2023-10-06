@@ -7,12 +7,15 @@
 		<meta name="author" content="Jerry Applegarth" />
 		<meta name="description" content="Learning Web Design" />
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+		<link
+			rel="shortcut icon"
+			href="./img/favicon.ico"
+			type="image/x-icon" />
 		<!-- Google Font -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Roboto:wght@400;700&display=swap"
 			rel="stylesheet" />
 
 		<!-- Font Awesome -->
@@ -23,7 +26,7 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer" />
 
-		<title>The Brewery</title>
+		<title>Search by Zip</title>
 		<!-- Main CSS and Reset -->
 
 		<link rel="stylesheet" href="/sass/style.scss" />
@@ -33,12 +36,11 @@
 	<body>
 		<main id="main" class="main">
 			<h1 class="main__h1">The Brewery Finder</h1>
-			<h2>by Zip or State</h2>
-			<nav class="main__nav">
-				<ul class="main__ul">
-					<l1 class="main__li"
-						><a href="/state.html">Search by State</a></l1
-					>
+			<nav class="nav main__nav">
+				<ul class="ul main__ul">
+					<li class="li main__li main__nav-item">
+						<a href="index.html">Home</a>
+					</li>
 					<l1 class="main__li"
 						><a href="/zipcode.html">Search by Zip Code</a></l1
 					>
@@ -53,14 +55,8 @@
 					>Open Brewery</a
 				>
 			</p>
+
 			<hr />
-			<section class="section__home">
-				<img
-					src="/img/pub.jpg"
-					alt="picture of a pub"
-					class="section__img"
-					width="100%" />
-			</section>
 		</main>
 	</body>
 </html>
